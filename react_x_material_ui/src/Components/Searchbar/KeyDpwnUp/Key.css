@@ -1,0 +1,25 @@
+/* App.css */
+.div-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 200px; /* Set a max height to enable scrolling */
+    overflow-y: auto;
+  }
+  
+  .div-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .div-item.selected {
+    background-color: #d3d3d3; /* Highlight color for selected item */
+  }
+  
+  .div-item:hover {
+    background-color: #f0f0f0;
+  }
+  

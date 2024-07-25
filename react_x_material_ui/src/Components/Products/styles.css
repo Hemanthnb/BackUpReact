@@ -1,0 +1,9 @@
+.before ::before{
+    content: "";
+    background-color: blue;
+    height: 50%;
+}
+
+.container{
+    background-color: grey;
+}

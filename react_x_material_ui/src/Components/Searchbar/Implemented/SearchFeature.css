@@ -1,0 +1,25 @@
+.list-items {
+    margin-bottom: 2px;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .list-items:hover {
+    background-color: rgb(159, 159, 159);
+    cursor: pointer;
+  }
+  
+  .suggestions-container {
+        list-style: none;
+        width: 100%;
+        background-color: rgb(210, 210, 210);
+        max-height: 200px; /* Adjust as needed */
+        overflow-y: auto;
+        padding-bottom: 5px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Ensure items start from the top */
+        align-items: center;
+  }
