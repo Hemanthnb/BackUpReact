@@ -1,0 +1,38 @@
+#string {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: rgb(225, 65, 65);
+    display: inline;
+}
+
+#string::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 3px solid red;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    animation: typing 6s linear infinite;
+}
+
+@keyframes typing {
+   
+    10%{
+        margin: 0px 0px;
+    }
+
+    30%{
+        margin: 0px 75px;
+    }
+    45%{
+        margin: 0px 80px;
+    }
+
+    70% {
+        margin: 0px -3px ;
+    }
+}
