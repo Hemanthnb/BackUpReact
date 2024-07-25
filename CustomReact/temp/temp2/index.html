@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="display">
+            <p id="result">0</p>
+        </div>
+        <div class="buttonsContainer">
+            <button id="incr" onclick="increment()">Increment</button>
+            <button id="decr", onclick="decrement()">Decrement</button>
+        </div>
+    </div>
+    
+</body>
+<script src="./brain.js" ></script>
+</html>
