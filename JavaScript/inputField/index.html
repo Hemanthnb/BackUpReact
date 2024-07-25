@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50% margin-auto;
+        border: 2px solid red;
+        border-radiux: 5px;
+        padding: 10px;
+      "
+    >
+      <p
+        id="value"
+        style="
+        height:15px;
+        overflow:auto;
+          padding: 5px;
+          border: 1px solid black;
+          text-align: center;
+          width: 50%;
+          margin: auto;
+          margin-bottom: 5px;
+        "
+      >
+        Random Alpha
+      </p>
+      <div
+        class="inputContainer"
+        style="display: flex; justify-content: center; align-items: center;"
+      >
+        <label for="inputLength">Input size : </label>
+        <input
+          type="text"
+          title="Length"
+          id="inputLength"
+          style="width: 15px; padding: 5px; border: 1px solid black"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="../Random/randomInt.mjs"></script>
+</html>
